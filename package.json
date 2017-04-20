@@ -1,0 +1,38 @@
+{
+  "name": "react-ts-boilerplate",
+  "version": "0.1.0",
+  "main": "./dist/bundle.js",
+  "author": "Justin Nicholes <jnicholes@outlook.com>",
+  "description": "React + Hot Reloading + TypeScript boilerplate",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jnicholes/react-ts-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jnicholes/react-ts-boilerplate/issues"
+  },
+  "homepage": "https://github.com/jnicholes/react-ts-boilerplate",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "@types/react": "^15.0.22",
+    "@types/react-dom": "^15.5.0",
+    "@types/webpack-env": "^1.13.0",
+    "awesome-typescript-loader": "^3.1.2",
+    "css-loader": "^0.28.0",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.3",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "source-map-loader": "^0.2.1",
+    "style-loader": "^0.16.1",
+    "typescript": "^2.2.2",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
